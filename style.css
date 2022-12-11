@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background: linear-gradient(68.15deg, #1f1f1e 16.62%, #4d5469 85.61%);
 }
 
 .cabecalho {
@@ -118,10 +118,19 @@ body {
 .rodape {
   padding: 32px;
   border-top: 0.4px solid #FFF2E7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .rodape-imagem {
   height: 48px;
-  display: block;
-  margin: 0 auto;
+}
+
+.rodape-texto {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px;
 }
